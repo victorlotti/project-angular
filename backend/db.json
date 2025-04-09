@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "iPad Pro Max 15",
+      "preco": 6000.89
+    },
+    {
+      "id": "2",
+      "name": "Geladeira Brastemp",
+      "preco": "2997.99"
+    },
+    {
+      "id": "3",
+      "name": "iPhone 12 Pro Max",
+      "preco": "5999.89"
+    },
+    {
+      "id": "4",
+      "name": "Samsung S20+ Plus",
+      "preco": "3999.99"
+    }
+  ]
+}

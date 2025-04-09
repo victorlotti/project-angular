@@ -1,0 +1,16 @@
+<mat-card>
+    <mat-card-title class="title">Deletar produto</mat-card-title>
+    <form>
+        <mat-form-field class="input">
+            <!--ngModel serve para pegar o valor digitado no formulario e atribuir a varial name de product-->
+            <input matInput placeholder="Nome:" [value]="product.name" name="name" disabled>
+        </mat-form-field>
+        <mat-form-field class="input">
+            <input matInput placeholder="Preço (R$):"  [value]="product.preco" name="price" disabled>
+        </mat-form-field>
+    </form>
+    <button mat-raised-button color="primary" (click)="deleteProduct()" class="save" color="warn">Delete</button>
+
+<button mat-raised-button (click)="navigateToHome()">Cancelar</button>
+</mat-card>
+

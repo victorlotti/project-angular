@@ -1,0 +1,14 @@
+<mat-card>
+    <mat-card-title>Novo produto</mat-card-title>
+    <mat-form-field class="input">
+        <!--ngModel serve para pegar o valor digitado no formulario e atribuir a varial name de product-->
+        <input matInput placeholder="Nome:" [(ngModel)]="product.name" name="name">
+    </mat-form-field>
+    <mat-form-field class="input">
+        <input matInput placeholder="Preço (R$):" [(ngModel)]="product.preco" name="price">
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="createProduct()" class="save">Salvar</button>
+
+<button mat-raised-button (click)="navigateToHome()">Cancelar</button>
+</mat-card>
+
