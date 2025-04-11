@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Angular](https://img.shields.io/badge/Angular-13-red?logo=angular&logoColor=white&style=flat-square)](https://angular.io/)
 [![Hosted on GitHub Pages](https://img.shields.io/badge/frontend-GitHub%20Pages-blue?style=flat-square&logo=github)](https://seu-link-do-github-pages)
-[![Backend on Render](https://img.shields.io/badge/backend-Render-%23704DD5?style=flat-square&logo=render)]
+[![Backend on Render](https://img.shields.io/badge/backend-Render-704DD5?style=flat-square&logo=render&logoColor=white)](https://project-angular-backend.onrender.com)
 
 ---
 
